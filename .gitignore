@@ -1,0 +1,76 @@
+# Next.js build outputs
+.next/
+out/
+
+# Node dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# IDE and editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+*.sublime*
+
+# Build files
+.vercel
+.cache/
+dist/
+build/
+
+# Testing
+coverage/
+
+# Debug logs
+debug.log
+*.log
+
+# Local API keys and secrets
+.env
+
+# Windows specific files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Temporary scripts
+*.tmp
+*~
+
+# Special case for this project - launcher scripts that are too specific
+fix-all-files.ps1
+fix-apostrophes.ps1
+launch.cmd
+start.ps1
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# misc
+*.pem
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts 

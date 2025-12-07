@@ -1,0 +1,55 @@
+{
+  "name": "ai-voice-agent-platform",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Platform for configuring AI voice agents with Kani integration for memory efficiency",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@headlessui/react": "^1.7.14",
+    "@tailwindcss/forms": "^0.5.3",
+    "axios": "^1.4.0",
+    "clsx": "^1.2.1",
+    "next": "^13.4.1",
+    "openai": "^3.2.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-flow-renderer": "^10.3.17",
+    "react-hook-form": "^7.43.9",
+    "tailwindcss": "^3.3.2",
+    "uuid": "^9.0.0",
+    "zod": "^3.21.4"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^14.3.1",
+    "@types/jest": "^29.5.14",
+    "@types/node": "^18.16.3",
+    "@types/react": "^18.2.5",
+    "@types/react-dom": "^18.2.3",
+    "@types/uuid": "^9.0.1",
+    "autoprefixer": "^10.4.14",
+    "eslint": "^8.39.0",
+    "eslint-config-next": "^13.4.1",
+    "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.5.0",
+    "postcss": "^8.4.23",
+    "ts-jest": "^29.3.2",
+    "typescript": "^5.0.4"
+  },
+  "keywords": [
+    "AI",
+    "voice agent",
+    "kani",
+    "memory optimization",
+    "LLM"
+  ],
+  "author": "",
+  "license": "MIT"
+}
