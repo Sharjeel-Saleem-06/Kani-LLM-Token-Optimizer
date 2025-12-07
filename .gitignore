@@ -37,6 +37,9 @@ ENV/
 .cache/
 dist/
 build/
+.netlify/
+out/
+.netlify/
 
 # Testing
 coverage/
